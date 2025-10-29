@@ -119,7 +119,7 @@ function Home() {
   });
 
   // Pagination Logic
-  // Pagination
+  67
 
   const totalPages = Math.ceil(filteredUsers.length / rowsPerPage);
   const startIndex = (currentPage - 1) * rowsPerPage;
@@ -193,7 +193,6 @@ function Home() {
           </thead>
 
           <tbody>
-            <p>Testing...</p>
             {users.map((user, index) => (
               <tr key={user.id}>
                 <td>{startIndex + index + 1}</td>
