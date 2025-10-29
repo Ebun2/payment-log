@@ -119,7 +119,7 @@ function Home() {
   });
 
   // Pagination Logic
-  67
+  
 
   const totalPages = Math.ceil(filteredUsers.length / rowsPerPage);
   const startIndex = (currentPage - 1) * rowsPerPage;
